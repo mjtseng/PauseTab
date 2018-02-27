@@ -1,0 +1,7 @@
+{
+	"manifest_version": 2,
+
+	"name": "PauseTab",
+	"description": "A Chrome extension to pause your tabs. Set a timer for when you want to return to your tabs. Includes anti-procrastination features - effectiveness not guaranteed.",
+	"version": "1.0",
+}
