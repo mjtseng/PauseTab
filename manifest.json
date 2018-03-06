@@ -6,4 +6,12 @@
 	"default_locale": "en",
 	"description": "A Chrome extension to pause your tabs. Set a timer for when you want to return to your tabs. Includes anti-procrastination features - effectiveness not guaranteed.",
 	"icons": {}
+	"browser_action":
+	{
+		"default_icon":
+		{
+			"16": "./assets/example16.jpg"
+			"32": "./assets/example32.jpg"
+		}
+	}
 }
