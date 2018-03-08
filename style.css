@@ -4,6 +4,7 @@
 {
     /*style for whole page can go here- see below comment for an example*/
     font-family: Helvetica;
+    color: #eaedef; /*a light gray that should contrast well with the blue background, hopefully doesn't break anything*/
 }
 
 h1
