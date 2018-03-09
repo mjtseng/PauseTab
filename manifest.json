@@ -11,9 +11,11 @@
 	{
 		"default_icon":
 		{
-			"16": "",
-			"24": "",
-			"32": "",
+			"16": "./assets/logos/Logo16.png",
+			"48": "./assets/logos/Logo48.png",
+			"32": "./assets/logos/Logo32.png",
+			"64": "./assets/logos/Logo64.png",
+			"128": "./assets/logos/Logo128.png",
 		},
 	},
 }
