@@ -4,7 +4,8 @@
 {
     /*style for whole page can go here- see below comment for an example*/
     font-family: Helvetica;
-    color: #eaedef; /*a light gray that should contrast well with the blue background, hopefully doesn't break anything*/
+    color: #eaedef; /*a light gray that should contrast well with the blue background*/
+    /*font-size: large;*/ /*you can also specify size like 15px*/ /*make sure it is an ok size for a Chrome extension*/
 }
 
 h1
