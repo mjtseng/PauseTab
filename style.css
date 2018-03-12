@@ -2,21 +2,26 @@
 
 *
 {
-    /*style for whole page can go here- see below comment for an example*/
+    /*style for whole page can go in here*/
     font-family: Helvetica;
     color: #eaedef; /*a light gray that should contrast well with the blue background*/
-    font-size: large;  /*you can also specify size like 15px*/ /*hopefully an ok size for a Chrome extension*/
 }
+
+body
+{
+    background-color: #1783e8; /*a nice shade of medium blue - not too light or dark*/
+}
+
+/*css for headings and stuff can go here*/
 
 h1
 {
     text-align: center;
 }
 
-body
+p
 {
-    /*code goes here*/
-    background-color: #1783e8; /*a nice shade of medium blue - not too light or dark*/
+	font-size: large;  /*you can also specify size like 15px*/ /*hopefully an ok size for a Chrome extension*/
 }
 
-/*css for headings and stuff can go here*/
+/*css for div and span things can go here*/
