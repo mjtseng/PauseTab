@@ -24,6 +24,7 @@
 			"64": "./assets/logos/Logo64.png",
 			"128": "./assets/logos/Logo128.png",
 		},
+		
 		"default_title": "PauseTab",
 		"default_popup": "index.html",
 	},
