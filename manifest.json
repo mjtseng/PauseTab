@@ -5,7 +5,14 @@
 	
 	"default_locale": "en",
 	"description": "A Chrome extension to pause your tabs. Set a timer for when you want to return to your tabs. Includes anti-procrastination features - effectiveness not guaranteed.",
-	"icons": {},
+	"icons": 
+	{
+			"16": "./assets/logos/Logo16.png",
+			"48": "./assets/logos/Logo48.png",
+			"32": "./assets/logos/Logo32.png",
+			"64": "./assets/logos/Logo64.png",
+			"128": "./assets/logos/Logo128.png",
+	},
 	
 	"browser_action":
 	{
@@ -17,5 +24,7 @@
 			"64": "./assets/logos/Logo64.png",
 			"128": "./assets/logos/Logo128.png",
 		},
+		"default_title": "PauseTab",
+		"default_popup": "index.html",
 	},
 }
