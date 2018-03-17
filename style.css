@@ -1,6 +1,6 @@
 /*CSS for PauseTab*/
 
-/*CSS for larger, overarching elements*/
+/*larger, overarching elements*/
 
 * /*style for everything*/
 {
@@ -13,7 +13,7 @@ body
     background-color: #1783e8; /*a nice shade of medium blue - not too light or dark*/
 }
 
-/*CSS for text goes below:*/
+/*text elements*/
 
 h1
 {
@@ -25,7 +25,7 @@ p
 	font-size: large;  /*you can also specify size like 15px*/
 }
 
-/*CSS for non-text things in the body*/
+/*non-text things in the body*/
 
 .center /*this is a new class, center, made to center the logo image in index.html*/
 {
