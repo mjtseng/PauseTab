@@ -26,6 +26,6 @@
 		},
 		
 		"default_title": "PauseTab",
-		"default_popup": "index.html",
+		"default_popup": "popup.html",
 	},
 }
