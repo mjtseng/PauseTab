@@ -10,7 +10,7 @@ var options=
 {
 	type:"basic",
 	title:"Stop procrastinating!",
-	message:"It's time to stop procrastinating! Get to work, or take a mental break",
+	message:"It's time to stop procrastinating! Get to work, or take a mental break", //to do: revise this advice to be helpful
 	iconUrl:"./assets/notification.png" //there is currently no icon created for PauseTab. When made, it'll be placed in "assets"
 };
 
