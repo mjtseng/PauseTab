@@ -13,6 +13,7 @@ var options=
 	message:"It's time to stop procrastinating! Get to work, or take a mental break", //to do: revise this advice to be helpful
 	iconUrl:"./assets/notification.png" //there is currently no icon created for PauseTab. When made, it'll be placed in "assets"
 										//not sure if I'm going to redesign the logo. If I do, I'll make sure the new one's here
+										//It's also possible to have a different icon for the notification (non-logo)
 };
 
 chrome.notifications.create(options, callback);
