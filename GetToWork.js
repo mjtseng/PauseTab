@@ -6,7 +6,7 @@ the following code was copied and pasted from Eunoia (https://github.com/VTam25/
 I switched out the words and kept the syntax. I also deleted some unnecessary whitespace.
 This code should be carefully reviewed before being finalized.
 
-var options= 
+var options= 	//what does this mean? what is var? TO DO: find out.
 {
 	type:"basic",
 	title:"Stop procrastinating!",
