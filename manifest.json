@@ -28,4 +28,9 @@
 		"default_title": "PauseTab",
 		"default_popup": "popup.html",
 	},
+
+	"permissions":
+	[
+		"notifications"
+	],
 }

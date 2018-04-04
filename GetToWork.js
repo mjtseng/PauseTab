@@ -22,5 +22,23 @@ chrome.notifications.create(options, callback);
 function callback(){
 
 }
+*/
+
+// ok so I don't actually know what the above means, so I'm starting from scratch with Google as my guide. New code below.
+
+var GetToWork = webkitNotifications.createNotification //this is a text-only notification
+(
+	//"someimage.jpg", //icon URL
+	"Hey there!", //title of notification
+	"Looks like you've been procrastinating for a while! Time to take a break?" //body text of notification
+);
+
+/* this is an html notification. Copied and pasted from https://developer.chrome.com/extensions/desktop_notifications
+	be careful though. This feature is getting depreciated I think
+
+var notification = webkitNotifications.createHTMLNotification
+(
+  'notification.html'  // html url - can be relative
+);
 
 */
