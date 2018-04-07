@@ -28,7 +28,7 @@ function callback(){
 
 var GetToWork = webkitNotifications.createNotification //this is a text-only notification
 (
-	//"someimage.jpg", //icon URL
+	//"someimage.jpg", //icon URL. TO DO: create an image for this and other notifications.
 	"Hey there!", //title of notification
 	"Looks like you've been procrastinating for a while! Time to take a break?" //body text of notification
 );
