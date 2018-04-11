@@ -34,4 +34,5 @@ p
 	margin-right: auto;
 	/*this code was taken from <https://www.w3schools.com/howto/howto_css_image_center.asp> */
 	/*not sure if I'll really use this part - will comment out or delete if I don't.*/
+	text-align: center; /*for text*/
 }
