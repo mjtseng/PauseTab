@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--lots of other sites on the interwebs have some kinda fancy thing here. TO DO: see what it is-->
+
 <html>
 
     <head>
@@ -42,14 +43,31 @@
 			<!--This image is commented out because it looks really weird and low-res. Maybe I can fix it later by putting a higher-res picture and setting size in this html file.-->
 		
 		<br>
-
 		<div class="center"> <!-- center the note -->
 			<p>Hi, and thanks for checking out this project! It's currently a work in progress, but check back soon!</p>
 		</div>
 
 		<br> <br>
 
-		<script src="GetToWork.js"></script>
+		<!--
+			could put buttons or links here. The navbar may be too crowded for the popup, which is pretty small.
+			Button syntax taken from https://www.w3schools.com/tags/tag_button.asp.
+				<button type="button" onclick="alert('A message after clicking!')">Button text!</button>
+			Link syntax:
+				<a href="example.com">Link text here!</a>
+		-->
+
+		<!--
+			alternatively, the navbar (format copied from MemePage repo, can be adapted here):
+        	<ul>
+		    	<li>Navbar text:</li>
+		    	<li> <a href="#PlaceOne">Go to Place One</a> </li>
+		    	<li> <a href="linktwo.html">Go to Link Two</a> </li>
+		    	<maybe add more pages here, I mean I don't know>
+        	</ul>
+    	-->
+
+		<script src="GetToWork.js"></script> <!--dunno if this is where I should link this. TO DO: check-->
 
 		<footer>
 			<a href="https://github.com/mjtseng/PauseTab">See the source code here!</a>
@@ -57,22 +75,12 @@
 			<!--making this a footer will keep it at the bottom-->
 			<!--other things that could be put here: ownership/real name, license info, sitemap/back to important links-->
 		</footer>
-        
-    <!--
-        <ul>
-		    a horizontal navbar you could implement (format copied from MemePage repo, can be adapted here):
-		    <li>Navbar text:</li>
-		    <li> <a href="#PlaceOne">Go to Place One</a> </li>
-		    <li> <a href="linktwo.html">Go to Link Two</a> </li>
-		    <maybe add more pages here, I mean I don't know>
-        </ul>
-    -->
     
-    <!--IDEA (maybe not to put in popup.html)
-		- Bundling tabs together.
-		- E.g. if you want to have a bunch of wikipedia tabs together, they can be compressed into wikipedia.org/ [two different things]
-		- Related: you might also want to have folders. (They could be useful for dividing into work, research, procrastination, etc.)
-    -->
+    	<!--IDEA (maybe not to put in popup.html)
+			- Bundling tabs together.
+			- E.g. if you want to have a bunch of wikipedia tabs together, they can be compressed into wikipedia.org/ [two different things]
+			- Related: you might also want to have folders. (They could be useful for dividing into work, research, procrastination, etc.)
+    	-->
 
     </body>
 
