@@ -30,7 +30,7 @@ p
 /*many thx to https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css*/
 .button
 {
-	background-color: #0fa851; /*a shade of dark green*/
+	background-color: #22d66f; /*a shade of dark green*/
 	text-align: center;
 	padding: 7px 15px;
 	font-size: 16;
@@ -39,7 +39,7 @@ p
 
 .button:hover
 {
-	background-color: #22d66f; /*darker green on hover*/
+	background-color: #0fa851; /*darker green on hover*/
 }
 
 .center /*this is a new class, center, made to center the logo image in index.html*/
