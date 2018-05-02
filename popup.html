@@ -87,7 +87,7 @@
 		<!-- creating test notification within HTML here. May change later. Some code borrowed from https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm -->
 
 		<button onclick="test_func">Test, click here!</button>
-		<p id="demo"></p> <!--I guess the script got an id?-->
+		<p id="demo"></p> <!--I guess the script got an id here?-->
 
 		<script>
 			function test_func()
@@ -95,11 +95,11 @@
 				var txt;
 				if(confirm("Pick an option, ok or snooze!"))
 				{
-					txt = "K great!"
+					txt = "K great!";
 				}
 				else
 				{
-					txt = "Snoozed!" // btw this does not work (yet), it just says "Snoozed"
+					txt = "Snoozed!"; // btw this does not work (yet), it just says "Snoozed"
 				}
 				// I don't really understand this line but I think it gets and prints txt ?? idk
 				document.getElementById("demo").innerHTML = txt;
