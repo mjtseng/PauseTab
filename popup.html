@@ -84,7 +84,9 @@
 		<script src="GetToWork.js"></script> dunno if this is where I should link this. TO DO: check
 		-->
 
-		<!-- creating test notification within HTML here. May change later. Some code borrowed from https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm -->
+		<!-- creating test notification within HTML here. May change later. 
+		Some code borrowed from https://www.w3schools.com/js/tryit.asp?filename=tryjs_confirm 
+		This probably won't be a final solution, since it changes the text in the page itself. But it works for now :) -->
 
 		<button onclick="test_func()">Test, click here!</button>
 		<p id="demo"></p> <!--I guess the script got an id here?-->
@@ -93,7 +95,7 @@
 			function test_func()
 			{
 				var txt;
-				if(confirm("Pick an option, ok or snooze!"))
+				if(confirm("Click ok, or cancel to snooze"))
 				{
 					txt = "K great!";
 				}
