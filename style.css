@@ -1,8 +1,6 @@
 /*CSS for PauseTab*/
 
-/*larger, overarching elements*/
-
-* /*style for everything*/
+*
 {
     font-family: Helvetica;
     color: #eaedef; /*a light gray color*/
@@ -25,8 +23,6 @@ p
 	font-size: large;  /*you can also specify size like 15px*/
 }
 
-/*non-text things in the body*/
-
 /*many thx to https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_css*/
 .button
 {
@@ -42,7 +38,7 @@ p
 	background-color: #0fa851; /*darker green on hover*/
 }
 
-.center /*this is a new class, center, made to center the logo image in index.html*/
+.center /*this is a new class, center, made to center the logo image in index.html; can be used for other stuff too*/
 {
 	display: block;
 	margin-left: auto;
